@@ -1,16 +1,65 @@
-# to_do_app_katomaran
+# ✅ To-Do App - Katomaran
 
-A new Flutter project.
+A simple and efficient **Task Manager Flutter App** built to help users organize their day-to-day activities with ease.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- Add tasks with:
+  - Title
+  - Description
+  - Due Date
+- Mark tasks as completed
+- Delete tasks by swiping
+- Modern UI with Material 3 Design
+- Responsive and smooth performance
+- Built using **Flutter + Dart**
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run the project locally:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/<your-username>/to_do_app_katomaran.git
+   cd to_do_app_katomaran
+   ```
+
+2. **Install dependencies**  
+   ```bash
+   flutter pub get
+   ```
+
+3. **Launch an emulator** (or connect a real device), then run:  
+   ```bash
+   flutter run
+   ```
+
+## 📂 Project Structure
+
+```plaintext
+lib/
+├── main.dart              # App entry point and main UI
+├── models/                # (Optional) Task model class
+├── widgets/               # (Optional) Reusable UI widgets
+```
+
+## 📦 Dependencies
+
+- [flutter](https://pub.dev/packages/flutter)
+- [intl](https://pub.dev/packages/intl)
+
+## 🧪 Future Improvements
+
+- Persistent storage using `shared_preferences` or SQLite
+- Task sorting and filtering
+- Notifications & reminders
+- Dark mode toggle
+
+## 👩‍💻 Author
+
+Developed by **Malarvizhi**  
+Feel free to contribute or suggest improvements.
+
+---
+
+**Happy Tasking!** 🎯
